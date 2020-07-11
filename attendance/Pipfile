@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+flask-mongoengine = "*"
+geopy = "*"
+boto3 = "*"
+elastic-apm = {extras = ["flask"],version = "*"}
+psutil = "*"
+flask-restful-swagger = "*"
+kafka-python = "*"
+Flask = "*"
+Flask-RESTful = "*"
+flask-cors = "*"
+azure-cognitiveservices-vision-face = "*"
+
+[requires]
+python_version = "3.8"
